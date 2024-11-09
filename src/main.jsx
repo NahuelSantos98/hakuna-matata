@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css'; // Asegúrate de que la hoja de estilos globales esté aquí
+import './index.css';
 import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(

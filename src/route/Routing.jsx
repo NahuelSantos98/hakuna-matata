@@ -1,5 +1,4 @@
-// Routing.js
-import { Route, Routes } from 'react-router-dom'; // Cambia Router por Routes
+import { Route, Routes } from 'react-router-dom';
 import NavAndFooter from "../../src/layout/NavAndFooter";
 import Home from "../../src/pages/home/Home";
 import Product from "../../src/pages/product/Products";

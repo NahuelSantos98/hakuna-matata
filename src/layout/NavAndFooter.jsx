@@ -4,12 +4,12 @@ import Footer from "../components/footer/Footer";
 const NavAndFooter = (props) => {
   const { children } = props;
   return (
-    <div className="flex flex-col min-h-screen"> {/* Asegura que toda la página ocupe el 100% de la altura */}
+    <div className="flex flex-col min-h-screen">
       <NavBar />
-      <div className="flex-grow"> {/* El contenido se expande para llenar el espacio disponible */}
+      <div className="flex-grow">
         {children}
       </div>
-      <Footer /> {/* El footer se posicionará al final */}
+      <Footer /> 
     </div>
   );
 };
