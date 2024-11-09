@@ -15,7 +15,7 @@ const Routing = () => {
         <Route path="/order" element={<Order />} />
       </Routes>
       </NavAndFooter>
-   
+        
     </>
   );
 };

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Asegúrate de que html y body ocupen el 100% de la altura y ancho */
+html, body {
+    height: 100%;
+    margin: 0; /* Elimina el margen por defecto */
+  }
+  
+  /* El contenedor raíz también debe ocupar el 100% */
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* En tus archivos CSS o Tailwind clases */
+.container {
+    width: 100%;
+    height: 100%;
+  }
+  

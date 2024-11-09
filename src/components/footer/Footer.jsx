@@ -2,8 +2,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
   return (
-    <footer className="text-white py-4">
-      <div className="container mx-auto flex justify-center space-x-36"> 
+    <footer className="text-white py-4 mt-auto bg-[#FF7700]"> {/* mt-auto asegura que el footer se quede abajo */}
+      <div className="container mx-auto flex justify-center space-x-8"> {/* Espaciado ajustado */}
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-facebook-square text-2xl hover:text-blue-500"></i>
         </a>
