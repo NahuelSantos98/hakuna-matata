@@ -6,7 +6,7 @@ const NavAndFooter = (props) => {
   return (
     <>
       <NavBar /> 
-      {props.children} 
+      {children } 
       <Footer />
       
     </>
